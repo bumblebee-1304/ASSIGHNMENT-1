@@ -9,3 +9,6 @@
 **4**-  The **SUMIF** function was used to calculate the total price of products in the Electronics category using the formula "=SUMIF(Category_Range,"Electronics",Price_Range)", where the Category column is the criteria range and the Price column is the sum range. The**COUNTIF** function was used to count products priced below $100 using the formula "=COUNTIF(Price_Range,"<100")".  
 
 **5**-  The **LEFT** function was used to create the Day column by extracting the first two characters from the Product ID using "=LEFT(Product_ID_Cell,2)". The **RIGHT** function was used to create the Country Code column by extracting the last two characters using "=RIGHT(Product_ID_Cell,2)". Finally, the **MID** function was used to create the Month column by extracting characters 4 to 6 using "=MID(Product_ID_Cell,4,3)".  
+
+## Conclusion
+This assignment demonstrated the practical application of Excel functions for data analysis, calculation, categorization, and data extraction. The use of these functions enabled the dataset to be analyzed efficiently and provided a clear understanding of the underlying product data.  
